@@ -1,0 +1,41 @@
+HTML:
+    table:
+    th is used for table head, 
+    td is used for table data.
+    tr is used for rows in table.
+    Attributes:
+    colspan & rowspan is attribute used to combine rows and columns respectively.
+    bg color for changing color.
+    height & weidth for changing height and weidth of the element.
+    border is used to describe the weidth of border.
+    alighn is used to reperesent wether the content is to placed in center, left or right by specifying allignment like align = "left" (for left allignment).
+    02:00:00 complete./
+    readonly is used to set any value in the box which is not editable but is is submitted and shown in the url while as disabled is also readonly additionally it is not shown in the url during submission neither you are able to click on the field. 
+    div tag is used to create block of the webpage it is a division tag by default it works in the form of rows and later on we use CSS to categorize those blocks.
+
+CSS:
+    Types - it has threee types based on the page 
+        1, Inline CSS is the types of css which is used to style on element of html at a time each element has its owm css. 
+        2, Internal css is the types of css which is used in the head of the html page for the perticular page. 
+        3, External css mostly used type of css. Css is created on the seperate page it can be created for many html pages then linked to the html page. 
+    Slectors:
+    how do the css know on which part it is to apply?
+    The answer is slector. it shows it where you are going to apply. There are two main slectors in the Css 
+    1, class: class implements css on all elements present in the class.
+    declaration - 
+            .class { 
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 20px;      
+            margin: 20px;
+                }
+
+    
+     2, id: ID implements css on the perticular element.  
+     declaration -
+        #my-unique-element {
+        color: blue;
+        font-size: 18px;
+        }
+//02:34:57 complete./   

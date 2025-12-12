@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+p {
+    margin: 20px;
+    line-height: 1.6;
+}
+.Form {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+}
