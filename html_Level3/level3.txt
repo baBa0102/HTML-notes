@@ -2,3 +2,12 @@ tables
 semantics 
 colspan & rowspan
 form, input types
+button:
+    can be created with button tag as well as with input tag however usually we use button tag as input tag is not recommended for creating buttons.
+Name: 
+    name attribute is used to refer the value stored in input field like - <input types ="text" name = "abc" placeholder= "Enter your name"> input is signle tag element here type defines which type of value we want to store in the field, name speficies which name will be used to refer the value stored and placeholder defines what should be present the text box. When user type any value the text mentioned with the placeholder will automatically erased.
+    Break down:
+        <form action="https://www.youtube.com/results">
+                    <input type="text" name="search_query" placeholder="what do you want to search">
+                    <button>Find</button>
+        here form action defines what action should be performed by submitting the form. input type defines the kind of data you want to put in the field. 
