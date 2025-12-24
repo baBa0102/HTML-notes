@@ -11,3 +11,6 @@ Name:
                     <input type="text" name="search_query" placeholder="what do you want to search">
                     <button>Find</button>
         here form action defines what action should be performed by submitting the form. input type defines the kind of data you want to put in the field. 
+chechbox
+radio
+select
