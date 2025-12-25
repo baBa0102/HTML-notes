@@ -19,5 +19,10 @@ range:  <div class="resourses">
             <input type="range" min="10&" max="100%" id="budget"/>
         </div>
 
-        Text area: it is used to get the text from the user. With this element a container is generated on the page where which a user can type in his input like feedback.
-        
+Text area: 
+    it is used to get the text from the user. With this element a container is generated on the page where which a user can type in his input like feedback.
+        <div>
+            <label for="feedback"></label>
+            <textarea name="feedback" id="feedback" placeholder="Write your feedback here."></textarea>
+        </div>
+    This is the way of using an element for textarea. div tag is used to seperate this from othe features.
