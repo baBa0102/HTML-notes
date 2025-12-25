@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html range</title>
+</head>
+<body>
+    <form action="/form.html">
+        <h1>Form of inquiry</h1>
+        <input type="text" name="name" id="name" placeholder="enter your name"> <br>
+        <input type="text" name="age" id="age" placeholder="enter your age"> <br>
+        <input type="text" name="address" id="add" placeholder="enter your district, state and country"> <br>
+        <div class="budget">
+            <select name="budget" id="price" >
+                <option value="10K to 20K">10K to 20K</option>
+                <option value="20K to 30K">20K to 30K</option>
+                <option value="More than 31K">More than 31K</option>
+            </select>
+        </div>
+        <div class="resourses">
+            <label for="budget">Select the frequency as per uptime of your project</label>
+            <input type="range" min="10&" max="100%" id="budget"/>
+        </div>
+        <div>
+            <label for="feedback"></label>
+            <textarea name="feedback" id="feedback" placeholder="Write your feedback here."></textarea>
+        </div>
+        <button type="submit">Submit</button>
+
+        
+
+    </form>
+</body>
+</html>

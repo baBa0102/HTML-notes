@@ -14,3 +14,10 @@ Name:
 chechbox
 radio
 select
+range:  <div class="resourses">
+            <label for="budget">Select the frequency as per uptime of your project</label>
+            <input type="range" min="10&" max="100%" id="budget"/>
+        </div>
+
+        Text area: it is used to get the text from the user. With this element a container is generated on the page where which a user can type in his input like feedback.
+        
