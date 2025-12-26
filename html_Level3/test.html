@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice Questions</title>
+</head>
+<body>
+    <div>
+        <form action="/action">
+            <table border="1" align="center"> <caption>Student Information</caption>
+                    <tr>
+                        <th rowspan="6">Info</th>
+                        <th rowspan="2">Name</th>
+                        <th colspan="2">Address</th>
+                    </tr>
+                    <tr>
+                        <th>City</th>
+                        <th>House</th>
+                    </tr>
+                    <tr>
+                        <td>A</td>
+                        <td>Delhi</td>
+                        <td>1</td>
+                    </tr>
+                    <tr>
+                        <td>B</td>
+                        <td>Mumbai</td>
+                        <td>2</td>
+                    </tr>
+                    <tr>
+                        <td>C</td>
+                        <td>Kolkata</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>D</td>
+                        <td>Pune</td>
+                        <td>4</td>
+                    </tr>
+            </table>
+        </form>
+    </div>
+</body>
+<form action="action">
+   <label for="name">Name:</label>
+   <input type="text" name="name">
+   <br><br>
+   <label for="sex">Sex:</label>
+   <input type="radio" value="sex" id="male" name="sex">
+   <label for="male">Male</label>
+   <input type="radio" value="sex" id="female" name="sex">
+   <label for="female">Female</label>
+   <br><br>
+   <label for="country">Country</label>
+   <select name="country" id="country">
+        <option value="india" name="country">India</option>
+        <option value="pakistan" name="country">Pakistan</option>
+        <option value="kashmir" name="country">Kashmir</option>
+        <option value="bangladesh" name="country">Bangladesh</option>
+        <option value="canada" name="country">Canada</option>
+   </select>
+   <br><br>
+   <label for="text">Message: </label><br>
+   <textarea name="text" id="text" placeholder="Type your message here: "></textarea>
+
+</form>
+</html>
